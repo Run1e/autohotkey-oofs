@@ -47,3 +47,17 @@ for k, v in obj {
 }
 ```
 
+#### AutoHotkey can click its own Hotkeys
+Just why?
+```autohotkey
+#MaxHotkeysPerInterval, 9140
+#MaxThreadsPerHotkey 255
+#MaxThreads 255
+SetBatchLines, -1
+SetKeyDelay -1, -1
+SendInput, a
+~a::SendInput bb
+~b::SendInput cc
+~c::SendInput dd
+~d::SendInput ee
+~e::SendInput aa```
