@@ -60,4 +60,5 @@ SendInput, a
 ~b::SendInput cc
 ~c::SendInput dd
 ~d::SendInput ee
-~e::SendInput aa```
+~e::SendInput aa
+```
