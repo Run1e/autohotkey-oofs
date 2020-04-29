@@ -25,6 +25,18 @@ ame
 )
 ```
 
+#### Using multiple continuation sections for one string
+
+```
+MsgBox,
+(
+Hello
+) World
+(
+!
+)
+```
+
 #### Converting a pure JSON string to an ahk object.
 
 Okay, this one is actually kind of cool. Obviously doesn't handle JSON
