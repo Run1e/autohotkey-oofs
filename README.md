@@ -37,6 +37,20 @@ Hello
 )
 ```
 
+#### Using expression continuation in plain text mode
+
+```autohotkey
+MsgBox, When writing in plain text
+, you can continue your line onto the next
+. Just make sure to punctuate at the start
+! For some reason commas, when used in this manner
+, don't cause leading whitespace
+, but all other punctuation does
+. Isn't that great
+? This feature was designed for use with expressions
+, but it works fine without them too!
+```
+
 #### Converting a pure JSON string to an ahk object.
 
 Okay, this one is actually kind of cool. Obviously doesn't handle JSON
