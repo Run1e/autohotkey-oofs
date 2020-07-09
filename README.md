@@ -73,6 +73,20 @@ for k, v in obj {
 }
 ```
 
+#### Single-equals sometimes does expression assignment
+
+In some situations, the dual purpose single-equals operator (normally plain-text
+assignment or case-insensitive equality) can take on a third purpose: expression
+assignment.
+
+```autohotkey
+MsgBox, % "Test: "
+. (a = 1      ; Comparison
+,  b = 2      ; Expression assignment
+,  c = b + 1) ; Expression assignment
+. "," a "," b "," c
+```
+
 #### AutoHotkey can click its own Hotkeys
 Just why?
 ```autohotkey
